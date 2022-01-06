@@ -1,0 +1,98 @@
+/* for top heading left border */
+body{
+    margin: 0;
+}
+#top-left-border{
+    border-left: 2px solid;
+    padding-left: 7px;
+    border-image: linear-gradient(rgb(152, 82, 245),  rgb(156, 18, 92));
+    border-image-slice: 1;
+    
+}
+section p {
+    margin-bottom: 20px;
+}
+
+.colorful{
+   color: #8e35b8;
+}
+/* For section one */
+.sec-one{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 5%;
+}
+.sec-one img {
+    width: 250px;
+    
+}
+.width{
+    width: 50%;
+}
+.heading-div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+small{
+    margin-left: 10%;
+    
+}
+
+.button{
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    background-color: rgb(231, 200, 23);
+    font-size: 16px;
+    box-shadow: 1px 1px 5px gray;
+    
+
+
+}
+/* section one done */
+
+#center{
+    text-align: center;
+    color: #7f26a8;
+}
+.sec-two{
+    margin-top: 40px;
+    display: flex;
+}
+
+#mission{
+    background-color: rgba(251, 192, 251, 0.548);
+    width: 40% ;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#vission{
+    background-color: rgba(126, 202, 64, 0.548);
+    width: 40% ;
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+#goals{
+    background-color: rgba(216, 176, 43, 0.548);
+    width: 40% ;
+    margin-right: 10%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+}
+.sec-two img {
+    margin-top: 20px;
+    width: 100px;
+    
+}
+
