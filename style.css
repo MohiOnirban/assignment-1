@@ -1,5 +1,6 @@
 /* for top heading left border */
 body{
+    background-color: rgb(255, 235, 255);
     margin: 0;
 }
 #top-left-border{
@@ -27,16 +28,13 @@ section p {
     
 }
 .width{
-    width: 50%;
+    width: 40%;
 }
 .heading-div{
     margin-left: 10%;
     margin-right: 10%;
 }
-small{
-    margin-left: 10%;
-    
-}
+
 
 .button{
     text-decoration: none;
@@ -49,15 +47,22 @@ small{
 
 
 }
-/* section one done */
+/* section one DONE */
 
 #center{
+    margin-top: 30px;
     text-align: center;
     color: #7f26a8;
+    
 }
 .sec-two{
     margin-top: 40px;
     display: flex;
+}
+.sec-two img {
+    margin-top: 20px;
+    width: 100px;
+    
 }
 
 #mission{
@@ -90,9 +95,54 @@ small{
     border-radius: 15px;
     box-shadow: 1px 1px 5px gray;
 }
-.sec-two img {
-    margin-top: 20px;
-    width: 100px;
+
+/* section two DONE */
+
+.sec-three{
+    margin-top: 80px;
+    display: flex;
+    margin-left: 10%;
+    
+}
+.sec-three img {
+    width: 350px;
     
 }
 
+.image{
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+
+}
+
+.sec-three-develop{
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-right: 10%;
+
+}
+
+/* section tree DONE */
+.sec-four{
+    margin-top: 80px;
+    display: flex;
+margin-right: 10%;
+    
+}
+.sec-four img {
+    width: 350px;
+    
+}
+
+.image{
+    border-radius: 23px;
+    box-shadow: 1px 1px 5px gray;
+
+}
+
+.sec-four-community{
+    margin-right: 80px;
+    margin-top: 40px;
+    margin-left: 10%;
+
+}
